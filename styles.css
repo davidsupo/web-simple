@@ -3,8 +3,10 @@ h1 {
 }
 
 ul {
+  overflow: hidden;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 li {
   margin: 1rem 2rem;
